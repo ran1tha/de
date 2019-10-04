@@ -4,6 +4,11 @@ In this Repository, the ANN_Using_Differential_Evolution.m file is used to train
 
 The training examples are generated using an adjustable function.
 This algorithm evolves a population of weights and biases over several generations to find the optimum weights and biases.
+NOTE:
+Here a customized mutation function is used which modifies the existing player by
+taking the best player from the previous generation into consideration. This
+mutation function is different from the genetic mutation function used more often. (Player refers to a single weight/bias vector from one generation )
+
 
 All the variables including the population count, number of neurons in the hidden layer, number of input features, number of training examples, evolution parameters can be adjusted. 
 
